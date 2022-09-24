@@ -1,0 +1,37 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: max(0.6vw, 15px);
+}
+
+.quotecon {
+  padding: 20px;
+}
+
+.quote {
+  font-size: max(2vw, 17px);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.author {
+  text-align: end;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  background-color: #444;
+  color: white;
+  padding: 5px;
+}
